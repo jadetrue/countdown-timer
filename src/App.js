@@ -1,25 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import { Container } from "./modules/Container";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const weddingDate = new Date("2023-12-14T13:00:00");
+    return <Container targetDate={weddingDate} />;
 }
 
 export default App;

@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --grayish-blue: 237deg 18% 59%;
+        --soft-red: 345deg 95% 68%;
+        --dark-blue: 236deg 21% 26%;
+        --very-very-dark-blue: 235deg 16% 14%;
+        --mostly-black-blue: 234def 17% 12%;
+    }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap");
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Red Hat Text", sans-serif;
+}
