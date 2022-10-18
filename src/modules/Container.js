@@ -17,7 +17,7 @@ export const Container = ({ targetDate }) => {
             <>
                 <div className="bg-veryDarkBlue flex flex-col justify-center items-center w-full h-full md:h-screen bg-[url('../images/bg-stars.svg')] bg-stretch bg-top">
                     <div className="m-auto">
-                        <h1 className="text-2xl font-medium text-white text-center">
+                        <h1 className="mb-24 text-2xl font-bold tracking-[.5em] text-center text-white">
                             WE'RE LAUNCHING SOON
                         </h1>
                         <ShowCounter
@@ -28,7 +28,11 @@ export const Container = ({ targetDate }) => {
                         />
                     </div>
                     <Footer />
-                    <img src={PatternHills} alt="" className="w-screen" />
+                    <img
+                        src={PatternHills}
+                        alt="Patterned hills"
+                        className="w-screen"
+                    />
                 </div>
             </>
         );

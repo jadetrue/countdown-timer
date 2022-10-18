@@ -4,7 +4,7 @@ import { DateTimeDisplay } from "../modules/DateTimeDisplay";
 
 export const ShowCounter = ({ days, hours, minutes, seconds }) => {
     return (
-        <div className="flex flex-row gap-20 h-full">
+        <div className="flex flex-row h-full gap-8">
             <DateTimeDisplay value={days} type={"Days"} />
             <DateTimeDisplay value={hours} type={"Hours"} />
             <DateTimeDisplay value={minutes} type={"Minutes"} />

@@ -2,10 +2,10 @@ import React from "react";
 
 export const DateTimeDisplay = ({ value, type }) => {
     return (
-        <div className="h-full w-32">
-            <div className="relative shadow-lg shadow-mostlyBlack bg-mostlyBlack rounded-lg">
-                <div className="absolute h-full w-full">
-                    <p className="text-softRed/95 font-bold text-6xl text-center align-middle h-full flex items-center justify-center">
+        <div className="w-32 h-full">
+            <div className="relative rounded-lg shadow-lg shadow-mostlyBlack bg-mostlyBlack">
+                <div className="absolute w-full h-full">
+                    <p className="flex items-center justify-center h-full text-6xl font-bold text-center align-middle text-softRed/95">
                         {value}
                     </p>
                 </div>
@@ -14,12 +14,12 @@ export const DateTimeDisplay = ({ value, type }) => {
                     <div className="w-3.5 h-3.5 bg-veryDarkBlue rounded-full" />
                 </div>
                 <div className="w-[130px] h-16 bg-veryDarkBlue rounded-t-lg">
-                    <div className="w-[130px] h-16 bg-darkBlue opacity-50 rounded-t-lg" />
+                    <div className="absolute w-[130px] h-16 bg-darkBlue opacity-50 rounded-t-lg" />
                 </div>
-                <div className="w-[130px] h-16  bg-darkBlue rounded-b-lg" />
+                <div className="w-[130px] h-16 bg-darkBlue rounded-b-lg" />
             </div>
-            <div className="flex justify-center items-center pt-10">
-                <p className="text-grayBlue font-medium tracking-widest">
+            <div className="flex items-center justify-center pt-10">
+                <p className="font-medium tracking-widest text-grayBlue">
                     {type.toUpperCase()}
                 </p>
             </div>
