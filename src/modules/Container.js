@@ -2,7 +2,6 @@ import React from "react";
 
 import { ShowCounter } from "../modules/ShowCounter";
 import { useCountdown } from "../hooks/useCountdown";
-import PatternHills from "../images/pattern-hills.svg";
 
 import { Expired } from "../modules/Expired";
 import Footer from "../modules/Footer";
@@ -28,11 +27,6 @@ export const Container = ({ targetDate }) => {
                         />
                     </div>
                     <Footer />
-                    <img
-                        src={PatternHills}
-                        alt="Patterned hills"
-                        className="w-screen"
-                    />
                 </div>
             </>
         );

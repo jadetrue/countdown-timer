@@ -19,17 +19,3 @@ body {
     margin: 0;
     font-family: "Red Hat Text", sans-serif;
 }
-
-:root {
-  --shadow-color: 0deg 0% 0%;
-  --shadow-elevation-low:
-    0px 0.5px 0.4px hsl(var(--shadow-color) / 0.47),
-    0.1px 2.5px 1.9px -5px hsl(var(--shadow-color) / 0.23);
-  --shadow-elevation-medium:
-    0px 0.5px 0.4px hsl(var(--shadow-color) / 0.66),
-    0.4px 12.6px 9.5px -5px hsl(var(--shadow-color) / 0.33);
-  --shadow-elevation-high:
-    0px 0.5px 0.4px hsl(var(--shadow-color) / 0.81),
-    0.3px 9.9px 7.4px -2.5px hsl(var(--shadow-color) / 0.54),
-    2.3px 75.8px 56.9px -5px hsl(var(--shadow-color) / 0.27);
-}
