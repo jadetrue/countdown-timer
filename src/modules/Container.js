@@ -16,7 +16,7 @@ export const Container = ({ targetDate }) => {
     } else {
         return (
             <>
-                <div className="relative bg-veryDarkBlue flex flex-col justify-center items-center w-full h-full md:h-screen bg-[url('../images/bg-stars.svg')] bg-stretch bg-top">
+                <div className="relative bg-veryDarkBlue flex flex-col justify-center items-center w-full h-screen md:h-screen bg-[url('../images/bg-stars.svg')] bg-stretch bg-top">
                     <div className="m-auto mt-24">
                         <h1 className="mb-24 text-2xl font-bold tracking-[.5em] text-center text-white">
                             WE'RE LAUNCHING SOON
