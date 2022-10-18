@@ -19,7 +19,7 @@ const Footer = () => {
 
     return (
         <>
-            <div className="flex flex-row justify-center gap-20 p-10">
+            <div className="flex flex-row justify-center gap-10 p-10">
                 <Facebook
                     id={"facebook"}
                     onMouseOver={handleMouseOver}
