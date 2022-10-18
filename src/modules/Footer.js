@@ -4,8 +4,6 @@ import { ReactComponent as Facebook } from "../images/socialIcons/icon-facebook.
 import { ReactComponent as Pinterest } from "../images/socialIcons/icon-pinterest.svg";
 import { ReactComponent as Instagram } from "../images/socialIcons/icon-instagram.svg";
 
-import { ReactComponent as Hills } from "../images/pattern-hills.svg";
-
 const Footer = () => {
     const [isHovering, setIsHovering] = useState(false);
 
@@ -19,7 +17,7 @@ const Footer = () => {
 
     return (
         <>
-            <div className="flex flex-row justify-center gap-10 p-10">
+            <div className="absolute bottom-0 flex flex-row justify-center gap-10 p-10">
                 <Facebook
                     id={"facebook"}
                     onMouseOver={handleMouseOver}
@@ -44,9 +42,6 @@ const Footer = () => {
                         isHovering ? "hsl(var(--soft-red) / 100)" : "#8385A9"
                     }`}
                 />
-            </div>
-            <div className="w-screen">
-                <Hills className="" />
             </div>
         </>
     );
