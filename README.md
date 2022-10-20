@@ -7,26 +7,23 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 - [Frontend Mentor - Countdown Timer](#frontend-mentor---countdown-timer)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
-  - [📷 Screenshot](#-screenshot)
   - [🔗 Links](#-links)
   - [🧰 My process](#-my-process)
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
     - [Continued development](#continued-development)
-    - [Useful resources](#useful-resources)
   - [✍️ Author](#️-author)
 
 ## Overview
 
-<!-- ![image]() -->
-## 📷 Screenshot
+My attempt at the Countdown Timer project from [Frontend Mentor](https://www.frontendmentor.io/)
 
-<!-- <img width="1625" alt="image" src="#"> -->
+<!-- ![image]() -->
 
 ## 🔗 Links
 
-<!-- Solution URL to be added here -->
-<!-- Live URL to be added here -->
+- [Solution URL](https://www.frontendmentor.io/solutions/countdown-timer-react-CBnwjsq56Z)
+- [Live URL](https://dapper-longma-e291e8.netlify.app/)
 
 ## 🧰 My process
 
@@ -34,16 +31,18 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 -   [CRA](https://reactjs.org/docs/create-a-new-react-app.html)
 -   [Tailwind CSS](https://tailwindcss.com/) ❤️
--   Mobile-first workflow
 -   [React](https://reactjs.org/) - JS library
 
 ### What I learned
 
+- I learned more about custom hooks, this was an interesting and cleaner way of coding in my opinion.
+
 ### Continued development
 
-### Useful resources
-
--   [Tailwind Tools](https://www.tailwind-tools.com/) - This is an amazing tool that helped me with the grid layout for this particular piece of work.
+- In this challenge, I created a custom hook to be able calculate the countdown timing function. This was particularly used for learning purposes. 
+- I would love to have more experience working with SVGs to understand why I could not get my footer background to be the full width of the users screen.
+- The flipping animation would be cool too revisit (currently does not do this).
+- Fix the opacity for the actual countdown to be as similar to the design as possible.
 
 ##  ✍️ Author
 
