@@ -4,8 +4,6 @@ import { ReactComponent as Facebook } from "../images/socialIcons/icon-facebook.
 import { ReactComponent as Pinterest } from "../images/socialIcons/icon-pinterest.svg";
 import { ReactComponent as Instagram } from "../images/socialIcons/icon-instagram.svg";
 
-import { ReactComponent as Hills } from "../images/pattern-hills.svg";
-
 const Footer = () => {
     const [isHovering, setIsHovering] = useState(false);
 
@@ -18,9 +16,8 @@ const Footer = () => {
     };
 
     return (
-        <>
-            <Hills className="absolute bottom-0 w-screen m-auto" />
-            <div className="relative flex flex-row justify-center w-screen gap-10 p-10">
+        <div className="bg-[url('../images/pattern-hills.svg')]">
+            <div className="flex flex-row justify-center w-screen gap-10 p-10">
                 <Facebook
                     id={"facebook"}
                     onMouseOver={handleMouseOver}
@@ -46,7 +43,7 @@ const Footer = () => {
                     }`}
                 />
             </div>
-        </>
+        </div>
     );
 };
 
