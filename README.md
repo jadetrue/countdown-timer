@@ -18,12 +18,12 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 My attempt at the Countdown Timer project from [Frontend Mentor](https://www.frontendmentor.io/)
 
-![image]("https://github.com/jadetrue/countdown-timer/blob/main/public/countdown-timer.jpg?raw=true")
+![image](https://github.com/jadetrue/countdown-timer/blob/main/public/countdown-timer.jpg?raw=true)
 
 ## 🔗 Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/countdown-timer-react-CBnwjsq56Z)
-- [Live URL](https://dapper-longma-e291e8.netlify.app/)
+-   [Solution URL](https://www.frontendmentor.io/solutions/countdown-timer-react-CBnwjsq56Z)
+-   [Live URL](https://dapper-longma-e291e8.netlify.app/)
 
 ## 🧰 My process
 
@@ -35,16 +35,16 @@ My attempt at the Countdown Timer project from [Frontend Mentor](https://www.fro
 
 ### What I learned
 
-- I learned more about custom hooks, this was an interesting and cleaner way of coding in my opinion.
+-   I learned more about custom hooks, this was an interesting and cleaner way of coding in my opinion.
 
 ### Continued development
 
-- In this challenge, I created a custom hook to be able calculate the countdown timing function. This was particularly used for learning purposes. 
-- I would love to have more experience working with SVGs to understand why I could not get my footer background to be the full width of the users screen.
-- The flipping animation would be cool too revisit (currently does not do this).
-- Fix the opacity for the actual countdown to be as similar to the design as possible.
+-   In this challenge, I created a custom hook to be able calculate the countdown timing function. This was particularly used for learning purposes.
+-   I would love to have more experience working with SVGs to understand why I could not get my footer background to be the full width of the users screen.
+-   The flipping animation would be cool too revisit (currently does not do this).
+-   Fix the opacity for the actual countdown to be as similar to the design as possible.
 
-##  ✍️ Author
+## ✍️ Author
 
 -   Website - [Jade True](https://www.jadetrue.co.uk)
 -   Frontend Mentor - [@jadetrue](https://www.frontendmentor.io/profile/jadetrue)
