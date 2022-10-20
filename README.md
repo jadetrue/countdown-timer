@@ -18,7 +18,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 My attempt at the Countdown Timer project from [Frontend Mentor](https://www.frontendmentor.io/)
 
-<!-- ![image]() -->
+![image]("https://github.com/jadetrue/countdown-timer/blob/main/public/countdown-timer.jpg?raw=true")
 
 ## 🔗 Links
 
